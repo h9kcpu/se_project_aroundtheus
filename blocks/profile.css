@@ -1,0 +1,48 @@
+.profile{
+
+}
+
+.profile__image{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.profile__info{
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 39px;
+    width: 373px;
+    left: 350px;
+    top: 181px;
+    border-radius: nullpx;
+
+}
+
+.profile__description{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 22px;
+    width: 415px;
+    left: 350px;
+    top: 236px;
+    border-radius: nullpx;
+
+}
+
+.profile__edit{
+    
+}
+
+.profile__add{
+    
+}
+
