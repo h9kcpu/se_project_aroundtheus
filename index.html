@@ -2,10 +2,10 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width-device-width, inital-scale=1.0"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no, inital-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
         <meta name="description" content="This webpage shows different area within the US." />
         <meta name="author" content="Sean Watson" />
-        <meta name="keywords" content="HTML, CSS, Javascript" />
+        <meta content="ie=edge" http-equiv="X-UA-Compatible" />
         <title>Around the US</title>
         <link rel="stylesheet" href="./pages/index.css" />
     </head>
@@ -17,30 +17,62 @@
     <div class="page__content">
         <section class="profile section">
             <img class="profile__image" src="../images/jacques-cousteau.png" alt="jacques">
-            <h1 class="profile__info">Jacques Cousteau</h1>
+            <div class="profile__info"></div>
+            <h1 class="profile__title">Jacques Cousteau</h1>
             <input type="image" src="../images/edit vector.svg" style="border: double" height="24px" width="24px" class="profile__edit"></input>
             <input type="image" src="../images/plus vector.svg" style="border: double" height="150px" width="50px" class="profile__add"></input>
             <p class="profile__description">Explorer</p>
+            </div>
         </section>
-        <section class="photo-grid section">
-            <ul class="photo-grid__list">
-                <li class="photo-grid__list-item">
-                    <img class="photo-grid__item" alt="photo-1" src="../images/yosemite-valley.png"/>
+        <section class="cards section">
+            <ul class="cards__list">
+                <li class="card">
+                    <img class="card__image" alt="yosemite" src="../images/yosemite-valley.png"/>   
+                    <img class="card__image-background" alt="white" src="../images/yosemite card.jpg"/>
+                    <div class="card__description">
+                        <h2 class="card__title">Yosemite Valley</h2>
+                        <button class="card__like-button" type="button"></button>                   
+                    </div>
                 </li>
-                <li class="photo-grid__list-item">
-                    <img class="photo-grid__item" alt="photo-2" src="../images/lake-louise.png"/>
+                <li class="card">
+                    <img class="card__image" alt="louise" src="../images/lake-louise.png"/>
+                    <img class="card__image-background" alt="white" src="../images/yosemite card.jpg"/>
+                    <div class="card__description">
+                        <h2 class="card__title">Lake Louise</h2>
+                        <button class="card__like-button" type="button"></button>
+                    </div>
                 </li>
-                <li class="photo-grid__list-item">
-                    <img class="photo-grid__item" alt="photo-3" src="../images/bald-mountains.png"/>
+                <li class="card">
+                    <img class="card__image" alt="bald" src="../images/bald-mountains.png"/>
+                    <img class="card__image-background" alt="white" src="../images/yosemite card.jpg"/>
+                    <div class="card__description">
+                        <h2 class="card__title">Bald Mountains</h2>
+                        <button class="card__like-button" type="button"></button>
+                    </div>
                 </li>
-                <li class="photo-grid__list-item">
-                    <img class="photo-grid__item" alt="photo-4" src="../images/latemar.png"/>
+                <li class="card">
+                    <img class="card__image" alt="latemar" src="../images/latemar.png"/>
+                    <img class="card__image-background" alt="white" src="../images/yosemite card.jpg"/>
+                    <div class="card__description">
+                        <h2 class="card__title">Latemar</h2>
+                        <button class="card__like-button" type="button"></button>
+                    </div>
                 </li>
-                <li class="photo-grid__list-item">
-                    <img class="photo-grid__item" alt="photo-5" src="../images/vanoise-national-park.png"/>
+                <li class="card">
+                    <img class="card__image" alt="vanoise" src="../images/vanoise-national-park.png"/>
+                    <img class="card__image-background" alt="white" src="../images/yosemite card.jpg"/>
+                    <div class="card__description">
+                        <h2 class="card__title">Vanoise National Park</h2>
+                        <button class="card__like-button" type="button"></button>
+                    </div>
                 </li>
-                <li class="photo-grid__list-item">
-                    <img class="photo-grid__item" alt="photo-6" src="../images/lago-di-braies.png"/>
+                <li class="card">
+                    <img class="card__image" alt="braies" src="../images/lago-di-braies.png"/>
+                    <img class="card__image-background" alt="white" src="../images/yosemite card.jpg"/>
+                    <div class="card__description">
+                        <h2 class="card__title">Lago di Braies</h2>
+                        <button class="card__like-button" type="button"></button>
+                    </div>
                 </li>
             </ul>
         </section>
