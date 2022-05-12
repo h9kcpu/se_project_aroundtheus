@@ -53,10 +53,11 @@
 
 .profile__edit{
     grid-area: edit;
-    
+    border: 2px solid #fff;    
 }
 
 .profile__add{
-    grid-area: add; 
+    grid-area: add;
+    border: 2px solid #fff;
 }
 

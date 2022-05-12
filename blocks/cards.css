@@ -10,23 +10,40 @@
 }
 
 .card{
-    
+    background-color: white;
+    width: 282px;
+    height: 361px;
+    overflow: hidden;
+    border-radius: 1em;
 }
 
 .card__image{
-    z-index: 5;
-}
-
-.card__image-background{
-    z-index: -3;
+    width: 282px;
+    height: 282px;
 }
 
 .card_description{
-
+    width: 246px;
+    height: 23px;
+    display: flex;
+    flex-direction: row;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .card__title{
-
+    color: black;
+    flex-direction: row;
+    row-gap: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .card__like-button{
