@@ -1,15 +1,25 @@
 .profile{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
-        "image info edit add"
-        "image description . add";
+   
+}
 
+.profile__container{
+    display: flex;
+    margin: auto;
+    padding: 40px 200px 51px;
+    justify-content: space-between;
+    max-width: 880px;
+    height: 120px;
+}
+
+.profile__content{
+    display: flex;
+}
+
+.profile__image-container{
+    display: flex;
 }
 
 .profile__image{
-    grid-area: image;
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -19,8 +29,7 @@
     
 }
 
-.profile__title{
-    grid-area: info;
+.profile__info-title{
     font-family: Inter;
     font-size: 42px;
     font-weight: 500;
@@ -35,8 +44,7 @@
 
 }
 
-.profile__description{
-    grid-area: description;
+.profile__info-description{
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
@@ -48,16 +56,13 @@
     left: 350px;
     top: 236px;
     border-radius: nullpx;
-
 }
 
 .profile__edit{
-    grid-area: edit;
     border: 2px solid #fff;    
 }
 
 .profile__add{
-    grid-area: add;
     border: 2px solid #fff;
 }
 

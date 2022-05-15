@@ -5,7 +5,8 @@
 .cards__list{
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+    grid-template-columns: 282px 282px 282px;
+    grid-template-rows: 361px 361px 361px;
     grid-gap: 17px;
 }
 
@@ -26,10 +27,8 @@
     width: 246px;
     height: 23px;
     display: flex;
-    flex-direction: row;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
+    flex-flow: row nowrap;
+    align-items: flex-start;
 }
 
 .card__title{
