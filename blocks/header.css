@@ -1,7 +1,16 @@
 .header{
+    
+}
 
+.header__container{
+    margin: auto;
 }
 
 .header__logo{
-    
+    width: 173px;
+    height: 33px;
+}
+
+.header__line{
+
 }
