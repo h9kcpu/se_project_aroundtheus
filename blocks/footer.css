@@ -8,3 +8,15 @@
     margin: auto;
     padding-left: 200px;
 }
+
+@media screen and (max-width:1250px) {
+    .footer {
+        padding-left: 20vw;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .footer {
+        padding-left: 35vw;
+    }
+}
