@@ -1,5 +1,5 @@
 .profile{
-   
+   margin: auto;
 }
 
 .profile__container{
@@ -17,6 +17,8 @@
 
 .profile__image-container{
     display: flex;
+    width: 169px;
+    height: 128px;
 }
 
 .profile__image{
@@ -26,7 +28,11 @@
 }
 
 .profile__info{
-    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 42px;
+line-height: 48px
 }
 
 .profile__info-title{
@@ -59,10 +65,14 @@
 }
 
 .profile__edit{
-    border: 2px solid #fff;    
-}
+    width: 24px;
+    height: 24px;
+    border: 2px solid #fff;
+}    
 
 .profile__add{
+    width: 150px;
+    height: 50px;
     border: 2px solid #fff;
 }
 
