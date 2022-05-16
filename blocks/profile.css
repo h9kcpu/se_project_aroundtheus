@@ -59,9 +59,13 @@ margin-right: 0;
     display: flex;
     width: 24px;
     height: 24px;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     margin: auto auto auto 18px;
-}    
+}
+
+.profile__edit:hover{
+    opacity: 0.6;
+}
 
 .profile__add{
     display: flex;
@@ -69,6 +73,10 @@ margin-right: 0;
     height: 50px;
     border: 2px solid #fff;
     margin: auto;
+}
+
+.profile__add:hover{
+    opacity: 0.6;
 }
 
 @media screen and (max-width: 768px) {
