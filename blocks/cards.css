@@ -58,9 +58,6 @@
     font-size: 24px;
     line-height: 29px;
     margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .card__like-button{
@@ -70,12 +67,6 @@
 
 .card__like-button:hover{
     opacity: 0.6;
-}
-
-li:nth-child(5){
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
 }
 
 @media screen and (max-width:1250px) {
