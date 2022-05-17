@@ -1,4 +1,4 @@
-### Around the US
+# Around the US
 
 This project showcases several locations around the world and a profile of explorer Jacques Cousteau.
 
