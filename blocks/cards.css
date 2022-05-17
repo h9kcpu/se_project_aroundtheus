@@ -32,19 +32,10 @@
     height: 282px;
 }
 
-.card_description{
+.card__description{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 246px;
-    height: 23px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 29px;
-    color: #000000;
-    margin: 0;
+    justify-content: space-between;
+    margin: 0 15px 31px 21px;
 }
 
 .card__title{
@@ -54,7 +45,9 @@
     font-weight: 900;
     font-size: 24px;
     line-height: 29px;
-    margin: auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .card__like-button{
