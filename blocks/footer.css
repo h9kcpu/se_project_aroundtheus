@@ -1,15 +1,17 @@
 .footer{
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     color: #545454;
-    margin: auto;
-    padding-left: 200px;
+    margin: 0;
+    padding-top: 67px;
+    padding-left: 15vw;
+    padding-bottom: 60px;
 }
 
-@media screen and (max-width:1250px) {
+@media screen and (max-width:1050px) {
     .footer {
         padding-left: 20vw;
     }
