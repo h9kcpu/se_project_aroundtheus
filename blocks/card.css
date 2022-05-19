@@ -29,8 +29,8 @@
 
 .card__image{
     display: block;
-    width: 282px;
-    height: 282px;
+    min-width: 282px;
+    min-height: 282px;
 }
 
 .card__description{
@@ -81,7 +81,7 @@
     .card__list{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        margin: 0;
+        margin: auto;
     }
 }
 
