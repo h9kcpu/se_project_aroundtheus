@@ -37,7 +37,7 @@
     display: flex;
     justify-content: space-between;
     max-height: 79px;
-    margin: 25px 15px 31px 21px;
+    margin: 25px 15px 25px 21px;
 }
 
 .card__title{
@@ -74,6 +74,7 @@
     .card__list {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+        max-width: 600px;
     }
 }
 
@@ -82,6 +83,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         margin: auto;
+
     }
 }
 
