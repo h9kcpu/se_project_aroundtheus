@@ -23,13 +23,12 @@
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:800px) {
     .footer {
-        margin: 0 19px 36px;
-        text-align: center;
+        margin: 36px 19px 36px;
         font-size: 14px;
         line-height: 17px;
-        min-width: 218px;
-        min-height: 14px;
+        padding: 0;
+        
     }
 }

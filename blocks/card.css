@@ -78,7 +78,7 @@
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:800px) {
     .card__list{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
