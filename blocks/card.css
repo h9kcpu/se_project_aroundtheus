@@ -5,6 +5,8 @@
     font-weight: 900;
     font-size: 24px;
     line-height: 29px;
+    min-width: 282px;
+    min-height: 361px;
     color: #000000;
 }
 
