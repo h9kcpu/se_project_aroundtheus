@@ -1,21 +1,21 @@
-const initialCards = [
+/* const initialCards = [
     {
         name: 'Yosemite Valley'
         link: 'https://code.s3.yandex.net/web-code/yosemite.jng'
 
-        name: 'Yosemite Valley'
+        name: 'Lake Louise'
         link: 'https://code.s3.yandex.net/web-code/lake-louise.jng'
 
-        name: 'Yosemite Valley'
+        name: 'Bald Mountains'
         link: 'https://code.s3.yandex.net/web-code/bald-mountains.jng'
 
-        name: 'Yosemite Valley'
+        name: 'Latemar'
         link: 'https://code.s3.yandex.net/web-code/latemar.jng'
 
-        name: 'Yosemite Valley'
+        name: 'Vanoise'
         link: 'https://code.s3.yandex.net/web-code/vanoise.jng'
 
-        name: 'Yosemite Valley'
+        name: 'Lago di Braies'
         link: 'https://code.s3.yandex.net/web-code/lago.jng'
     }
 ]
@@ -73,5 +73,5 @@ profileEditButton.addEventListener('click' , openModal);
 modalCloseButton.addEventListener('click' , closeModal);
 
 for (let i = 0; i < initialCards.length; i++) {
-    cardsWrap.prepend(getCardElement(initalCards[i]));
+    cardsWrap.prepend(getCardElement(initalCards[i]));-
 }
