@@ -78,22 +78,12 @@
         <p class="footer__text">© 2022 Around The U.S.</p>
     </footer>
     <div class="modal">
-        <button class="modal__close" type="button"></button>
         <div class="modal__content">
+            <button class="modal__close" type="button"></button>
             <h3 class="modal__title">Edit Profile</h3>
             <form class="modal__form" id="edit-profile-form">
-                <input
-                    class="modal__input modal__input_type_name"
-                    name="name"
-                    placeholder="Name"
-                    type="text"
-                />
-                <input
-                    class="modal__input modal__input_type_desription"
-                    name="description"
-                    placeholder="Description"
-                    type="text"
-                />
+                <input class="modal__input-name" name="name" placeholder="Name" type="text" />
+                <input class="modal__input-description" name="description" placeholder="Description" type="text" />
                 <button class="modal__submit" type="submit">Save</button>
             </form>
         </div>
@@ -109,4 +99,5 @@
         </li>
     </template>
 </body>
+
 </html>
