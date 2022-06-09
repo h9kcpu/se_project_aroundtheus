@@ -13,19 +13,19 @@ const initialCards = [
     },
     {
         name: 'Latemar',
-        link: 'https://code.s3.yandex.net/web-code/latemar.jng',
+        link: 'https://code.s3.yandex.net/web-code/latemar.jpg',
     },
     {
         name: 'Vanoise National Park',
-        link: 'https://code.s3.yandex.net/web-code/vanoise.jng',
+        link: 'https://code.s3.yandex.net/web-code/vanoise.jpg',
     },
     {
         name: 'Lago di Braies',
-        link: 'https://code.s3.yandex.net/web-code/lago.jng',
+        link: 'https://code.s3.yandex.net/web-code/lago.jpg ',
     },
 ]
 
-const cardTemplate = document.querySelector('#card-template').content.querySelector('.card');
+const cardTemplate = document.querySelector('#card-template').content.querySelector('.card__content');
 
 const cardsWrap = document.querySelector('.card__list');
 const modal = document.querySelector('.modal');

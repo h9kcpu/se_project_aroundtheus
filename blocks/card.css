@@ -32,7 +32,7 @@
 .card__image{
     display: block;
     min-width: 282px;
-    min-height: 282px;
+    max-height: 282px;
 }
 
 .card__description{
