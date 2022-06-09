@@ -28,8 +28,8 @@
             <button type="submit" class="profile__button-add"></button>
         </section>
         <section class="card section">
-            <ul class="card__list">
-                <li class="card__content">
+           <!-- <ul class="card__list"> 
+               <li class="card__content">
                     <img class="card__image" alt="yosemite" src="./images/yosemite-valley.png" />
                     <div class="card__description">
                         <h2 class="card__title">Yosemite Valley</h2>
@@ -70,8 +70,9 @@
                         <h2 class="card__title">Lago di Braies</h2>
                         <button type="submit" class="card__button-like"></button>
                     </div>
-                </li>
-            </ul>
+                </li> 
+            
+            </ul> -->
         </section>
     </main>
     <footer class="footer">
@@ -82,22 +83,33 @@
             <button class="modal__close" type="button"></button>
             <h3 class="modal__title">Edit Profile</h3>
             <form class="modal__form" id="edit-profile-form">
-                <input class="modal__input-name" name="name" placeholder="Name" type="text" />
-                <input class="modal__input-description" name="description" placeholder="Description" type="text" />
+                <input
+                    class="modal__input-name"
+                    name="name"
+                    placeholder="Name"
+                    type="text"
+                />
+                <input
+                    class="modal__input-description"
+                    name="description"
+                    placeholder="Description"
+                    type="text"
+                />
                 <button class="modal__submit" type="submit">Save</button>
             </form>
         </div>
     </div>
     <script defer src="./scripts/index.js"></script>
     <template id="card-template">
-        <li class="card">
+        <ul class="card__list">
+        <li class="card__content">
             <img class="card__image" src="" alt="" />
             <div class="card__description">
-                <h2 class="card_title"></h2>
-                <button class="card__title" type="button"></button>
+                <h2 class="card__title"></h2>
+                <button class="card__button-like" type="button"></button>
             </div>
         </li>
+        </ul>
     </template>
 </body>
-
 </html>

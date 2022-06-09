@@ -25,11 +25,9 @@ const initialCards = [
     },
 ]
 
-const cardTemplate = document
-    .querySelector('#card-template')
-    .content.querySelector('.card');
+const cardTemplate = document.querySelector('#card-template').content.querySelector('.card');
 
-const cardsWrap = document.querySelector('.cards__list');
+const cardsWrap = document.querySelector('.card__list');
 const modal = document.querySelector('.modal');
 const profileFormElement = document.querySelector('.modal__form');
 
