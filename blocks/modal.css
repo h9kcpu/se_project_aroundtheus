@@ -4,7 +4,6 @@
     width: auto;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
     justify-content: center;
     align-items: center;
     z-index: 10;
@@ -101,9 +100,7 @@
 }
 
 @media screen and (max-width:800px) {
-    .modal{
-        
-    }
+
     .modal__content{
         height: 322px;
         width: 282px;
