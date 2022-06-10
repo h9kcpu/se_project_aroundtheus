@@ -28,69 +28,26 @@
             <button type="submit" class="profile__button-add"></button>
         </section>
         <section class="card section">
-            <ul class="card__list"> 
-              <!-- <li class="card__content">
-                    <img class="card__image" alt="yosemite" src="./images/yosemite-valley.png" />
-                    <div class="card__description">
-                        <h2 class="card__title">Yosemite Valley</h2>
-                        <button type="submit" class="card__button-like"></button>
-                    </div>
-                </li>
-                <li class="card__content">
-                    <img class="card__image" alt="louise" src="./images/lake-louise.png" />
-                    <div class="card__description">
-                        <h2 class="card__title">Lake Louise</h2>
-                        <button type="submit" class="card__button-like"></button>
-                    </div>
-                </li>
-                <li class="card__content">
-                    <img class="card__image" alt="bald" src="./images/bald-mountains.png" />
-                    <div class="card__description">
-                        <h2 class="card__title">Bald Mountains</h2>
-                        <button type="submit" class="card__button-like"></button>
-                    </div>
-                </li>
-                <li class="card__content">
-                    <img class="card__image" alt="latemar" src="./images/latemar.png" />
-                    <div class="card__description">
-                        <h2 class="card__title">Latemar</h2>
-                        <button type="submit" class="card__button-like"></button>
-                    </div>
-                </li>
-                <li class="card__content">
-                    <img class="card__image" alt="vanoise" src="./images/vanoise-national-park.png" />
-                    <div class="card__description">
-                        <h2 class="card__title">Vanoise National Park</h2>
-                        <button type="submit" class="card__button-like"></button>
-                    </div>
-                </li>
-                <li class="card__content">
-                    <img class="card__image" alt="braies" src="./images/lago-di-braies.png" />
-                    <div class="card__description">
-                        <h2 class="card__title">Lago di Braies</h2>
-                        <button type="submit" class="card__button-like"></button>
-                    </div>
-                </li> -->
-            
+            <ul class="card__list">
             </ul> 
         </section>
     </main>
     <footer class="footer">
         <p class="footer__text">© 2022 Around The U.S.</p>
     </footer>
-    <div class="modal">
+    <div class="modal modal__opened">
         <div class="modal__content">
             <button class="modal__close" type="button"></button>
             <h3 class="modal__title">Edit Profile</h3>
-            <form class="modal__form" id="edit-profile-form">
+            <form class="modal__form" id="edit-profile-form" name="editForm">
                 <input
-                    class="modal__input-name"
+                    class="modal__input modal__input_type_name"
                     name="name"
                     placeholder="Name"
                     type="text"
                 />
                 <input
-                    class="modal__input-description"
+                    class="modal__input modal__input_type_description"
                     name="description"
                     placeholder="Description"
                     type="text"

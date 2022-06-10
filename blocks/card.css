@@ -38,7 +38,6 @@
 .card__description{
     display: flex;
     justify-content: space-between;
-    max-height: 79px;
     margin: 25px 15px 25px 21px;
 }
 

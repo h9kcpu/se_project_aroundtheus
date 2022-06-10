@@ -36,18 +36,18 @@ const modalCloseButton = document.querySelector('.modal__close');
 const profileTitle = document.querySelector('.profile__info-title');
 const profileDescription = document.querySelector('.profile__info-description');
 
-const nameInput = profileFormElement.querySelector('.modal__input-name');
-const jobInput = profileFormElement.querySelector('.modal__input-description');
+const nameInput = profileFormElement.querySelector('.modal__input_type_name');
+const jobInput = profileFormElement.querySelector('.modal__input_type_description');
 
 function closeModal() {
-    modal.style.display = 'none';
+    modal.classList.remove('modal__opened');
 }
 
 function openModal() {
     nameInput.value = profileTitle.textContent;
     jobInput.value = profileDescription.textContent;
 
-    modal.style.display = 'flex';
+    modal.classList.add('modal__opened');
 
 }
 
