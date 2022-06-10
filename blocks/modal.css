@@ -14,7 +14,7 @@
     display: none;
 }
 
-.modal__opened {
+.modal__is-opened {
     display: flex;
 }
 
