@@ -63,7 +63,7 @@
     
 }
 
-.modal__input_type_name {
+.modal__input {
     font-family: 'Inter' , Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -77,36 +77,20 @@
     
 }
 
-.modal__input_type_description {
-    font-family: 'Inter' , Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: black;
-    width: 358px;
-    height: 27px;
-    border-width: 0;
-    border-bottom: 1px solid rgba(84, 84, 84, 0.2);
-}
-
 .modal__submit {
     color: white;
     background-color: black;
     width: 358px;
     height: 50px;
     border-radius: 2px;
+    border: 0;
 }
 
 .modal__submit:hover {
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    opacity: 0.8;
 }
 
 @media screen and (max-width:800px) {
-
-    .modal{
-        top: -22%;
-    }
 
     .modal__content{
         min-height: 322px;
