@@ -28,25 +28,25 @@ const initialCards = [
 const cardTemplate = document.querySelector('#card-template').content.querySelector('.card__content');
 
 const cardsWrap = document.querySelector('.card__list');
-const modal = document.querySelector('.modal');
+const modal = document.querySelector("#edit-modal");
+const addModal = document.querySelector("#add-modal");
 const profileFormElement = document.querySelector('.modal__form');
 
 const profileEditButton = document.querySelector('.profile__button-edit');
+const profileAddButton = document.querySelector('.profile__button-add');
 const modalCloseButton = document.querySelector('.modal__close');
 const profileTitle = document.querySelector('.profile__info-title');
 const profileDescription = document.querySelector('.profile__info-description');
 
 const nameInput = profileFormElement.querySelector('.modal__input_type_name');
 const jobInput = profileFormElement.querySelector('.modal__input_type_description');
+const addModalCloseButton = document.querySelector('.modal__close');
 
-function closeModal() {
+function closeModal(modal) {
     modal.classList.remove('modal__is-opened');
 }
 
-function openModal() {
-    nameInput.value = profileTitle.textContent;
-    jobInput.value = profileDescription.textContent;
-
+function openModal(modal) {
     modal.classList.add('modal__is-opened');
 
 }
@@ -73,10 +73,37 @@ function getCardElement(data) {
 }
 
 profileFormElement.addEventListener('submit', handleProfileFormSubmit);
-profileEditButton.addEventListener('click', openModal);
-modalCloseButton.addEventListener('click', closeModal);
+
+modalCloseButton.addEventListener('click', function() {
+    closeModal(modal);
+});
+
+addModalCloseButton.addEventListener('click', function() {
+    closeModal(modal);
+});
+
+
+profileEditButton.addEventListener('click', () => {
+    nameInput.value = profileTitle.textContent;
+    jobInput.value = profileDescription.textContent;
+    openModal(modal);
+});
+
+profileAddButton.addEventListener('click', () => {
+
+    openModal(addModal);
+});
+
+    
 
 
 for (let i = 0; i < initialCards.length; i++) {
     cardsWrap.prepend(getCardElement(initialCards[i]));
+    console.log("loop", i);
 } 
+
+initialCards.forEach(function(getCardElement) {
+    cardsWrap.prepend(getCardElement(initialCards[i]));
+    console.log(getCardElement);
+})
+
