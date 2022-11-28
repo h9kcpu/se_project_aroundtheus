@@ -79,7 +79,7 @@ modalCloseButton.addEventListener('click', function() {
 });
 
 addModalCloseButton.addEventListener('click', function() {
-    closeModal(modal);
+    closeModal(addModal);
 });
 
 
