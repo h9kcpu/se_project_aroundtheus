@@ -40,6 +40,11 @@ const profileDescription = document.querySelector('.profile__info-description');
 const nameInput = profileFormElement.querySelector('.modal__input_type_name');
 const jobInput = profileFormElement.querySelector('.modal__input_type_description');
 
+const titleInput = profileFormElement.querySelector('.modal__input_type_title');
+const linkInput = profileFormElement.querySelector('.modal__input_type_link');
+
+const cardTitle = cardTemplate.querySelector('.card__title');
+const cardLink = cardTemplate.querySelector('.card__image');
 
 const addModal = document.querySelector("#add-modal");
 const addModalCloseButton = document.querySelector('#add-close');
@@ -65,12 +70,10 @@ function handleProfileFormSubmit(evt) {
 function handleAddFormSubmit(evt) {
     evt.preventDefault();
 
-    const title = evt.target.title.value;
-    const link = evt.target.link.value;
-    renderCard({
-        name: title,
-        link: link,
-    })
+    cardTitle.textContent = titleInput.value;
+    cardLink = linkInput.value;
+
+   closeModal();
     
 }
 
