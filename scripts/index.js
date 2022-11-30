@@ -37,6 +37,8 @@ const profileAddButton = document.querySelector('.profile__button-add');
 const profileTitle = document.querySelector('.profile__info-title');
 const profileDescription = document.querySelector('.profile__info-description');
 
+const likeButton = document.querySelector('.card__button-like');
+
 const nameInput = profileFormElement.querySelector('.modal__input_type_name');
 const jobInput = profileFormElement.querySelector('.modal__input_type_description');
 
@@ -116,6 +118,9 @@ addModalCloseButton.addEventListener('click', function() {
     closeModal(addModal);
 });
 
+likeButton.addEventListener('click', function() {
+    likeButton.style.backgroundColor = '#000000';
+});
 
 profileEditButton.addEventListener('click', () => {
     nameInput.value = profileTitle.textContent;
